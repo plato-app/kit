@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
+	"github.com/plato-app/kit/endpoint"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
+	"github.com/plato-app/kit/examples/shipping/cargo"
+	"github.com/plato-app/kit/examples/shipping/location"
 )
 
 type bookCargoRequest struct {

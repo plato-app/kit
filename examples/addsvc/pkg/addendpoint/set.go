@@ -10,15 +10,15 @@ import (
 	stdzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/sony/gobreaker"
 
-	"github.com/go-kit/kit/circuitbreaker"
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/ratelimit"
-	"github.com/go-kit/kit/tracing/opentracing"
-	"github.com/go-kit/kit/tracing/zipkin"
+	"github.com/plato-app/kit/circuitbreaker"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/metrics"
+	"github.com/plato-app/kit/ratelimit"
+	"github.com/plato-app/kit/tracing/opentracing"
+	"github.com/plato-app/kit/tracing/zipkin"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addservice"
 )
 
 // Set collects all of the endpoints that compose an add service. It's meant to

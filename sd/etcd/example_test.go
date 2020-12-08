@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/lb"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/sd"
+	"github.com/plato-app/kit/sd/lb"
 )
 
 func Example() {

@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/internal/instance"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/sd"
+	"github.com/plato-app/kit/sd/internal/instance"
 )
 
 // ErrPortZero is returned by the resolve machinery

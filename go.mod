@@ -1,4 +1,4 @@
-module github.com/go-kit/kit
+module github.com/plato-app/kit
 
 go 1.13
 

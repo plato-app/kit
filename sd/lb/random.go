@@ -3,8 +3,8 @@ package lb
 import (
 	"math/rand"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/sd"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/sd"
 )
 
 // NewRandom returns a load balancer that selects services randomly.

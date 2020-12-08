@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/dogstatsd"
+	"github.com/plato-app/kit/metrics"
+	"github.com/plato-app/kit/metrics/dogstatsd"
 )
 
 type dogstatsdProvider struct {

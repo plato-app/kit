@@ -10,8 +10,8 @@ import (
 
 	influxdb "github.com/influxdata/influxdb1-client/v2"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics/teststat"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/metrics/teststat"
 )
 
 func TestCounter(t *testing.T) {

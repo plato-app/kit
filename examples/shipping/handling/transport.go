@@ -8,13 +8,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	kitlog "github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
-	kithttp "github.com/go-kit/kit/transport/http"
+	kitlog "github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/transport"
+	kithttp "github.com/plato-app/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
-	"github.com/go-kit/kit/examples/shipping/voyage"
+	"github.com/plato-app/kit/examples/shipping/cargo"
+	"github.com/plato-app/kit/examples/shipping/location"
+	"github.com/plato-app/kit/examples/shipping/voyage"
 )
 
 // MakeHandler returns a handler for the handling service.

@@ -3,8 +3,8 @@ package endpoints
 import (
 	"context"
 
-	"github.com/go-kit/kit/cmd/kitgen/testdata/profilesvc/default/service"
-	"github.com/go-kit/kit/endpoint"
+	"github.com/plato-app/kit/cmd/kitgen/testdata/profilesvc/default/service"
+	"github.com/plato-app/kit/endpoint"
 )
 
 type PostProfileRequest struct {

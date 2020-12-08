@@ -10,14 +10,14 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/go-kit/kit/circuitbreaker"
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/ratelimit"
-	"github.com/go-kit/kit/tracing/opentracing"
-	"github.com/go-kit/kit/transport/http/jsonrpc"
+	"github.com/plato-app/kit/circuitbreaker"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addendpoint"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addservice"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/ratelimit"
+	"github.com/plato-app/kit/tracing/opentracing"
+	"github.com/plato-app/kit/transport/http/jsonrpc"
 	stdopentracing "github.com/opentracing/opentracing-go"
 	"github.com/sony/gobreaker"
 )

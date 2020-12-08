@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-kit/kit/log"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/plato-app/kit/log"
+	httptransport "github.com/plato-app/kit/transport/http"
 )
 
 type requestIDKeyType struct{}

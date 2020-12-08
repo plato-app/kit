@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-kit/kit/circuitbreaker"
-	"github.com/go-kit/kit/endpoint"
-	kithttp "github.com/go-kit/kit/transport/http"
+	"github.com/plato-app/kit/circuitbreaker"
+	"github.com/plato-app/kit/endpoint"
+	kithttp "github.com/plato-app/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
-	"github.com/go-kit/kit/examples/shipping/voyage"
+	"github.com/plato-app/kit/examples/shipping/cargo"
+	"github.com/plato-app/kit/examples/shipping/location"
+	"github.com/plato-app/kit/examples/shipping/voyage"
 )
 
 type proxyService struct {

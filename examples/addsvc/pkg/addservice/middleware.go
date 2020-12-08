@@ -3,8 +3,8 @@ package addservice
 import (
 	"context"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/metrics"
 )
 
 // Middleware describes a service (as opposed to endpoint) middleware.

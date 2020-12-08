@@ -3,7 +3,7 @@ package tracking
 import (
 	"context"
 
-	"github.com/go-kit/kit/endpoint"
+	"github.com/plato-app/kit/endpoint"
 )
 
 type trackCargoRequest struct {

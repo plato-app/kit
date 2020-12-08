@@ -16,22 +16,22 @@ import (
 	"syscall"
 	"time"
 
-	consulsd "github.com/go-kit/kit/sd/consul"
+	consulsd "github.com/plato-app/kit/sd/consul"
 	"github.com/gorilla/mux"
 	"github.com/hashicorp/consul/api"
 	stdopentracing "github.com/opentracing/opentracing-go"
 	stdzipkin "github.com/openzipkin/zipkin-go"
 	"google.golang.org/grpc"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/lb"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/sd"
+	"github.com/plato-app/kit/sd/lb"
+	httptransport "github.com/plato-app/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addtransport"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addendpoint"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addservice"
+	"github.com/plato-app/kit/examples/addsvc/pkg/addtransport"
 )
 
 func main() {

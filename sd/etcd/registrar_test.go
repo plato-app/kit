@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/go-kit/kit/log"
+	"github.com/plato-app/kit/log"
 )
 
 // testClient is a basic implementation of Client

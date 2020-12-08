@@ -3,10 +3,10 @@ package booking
 import (
 	"time"
 
-	"github.com/go-kit/kit/metrics"
+	"github.com/plato-app/kit/metrics"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
+	"github.com/plato-app/kit/examples/shipping/cargo"
+	"github.com/plato-app/kit/examples/shipping/location"
 )
 
 type instrumentingService struct {

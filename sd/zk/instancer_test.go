@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kit/kit/sd"
+	"github.com/plato-app/kit/sd"
 )
 
 var _ sd.Instancer = (*Instancer)(nil) // API check

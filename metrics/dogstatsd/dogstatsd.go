@@ -20,12 +20,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/generic"
-	"github.com/go-kit/kit/metrics/internal/lv"
-	"github.com/go-kit/kit/metrics/internal/ratemap"
-	"github.com/go-kit/kit/util/conn"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/metrics"
+	"github.com/plato-app/kit/metrics/generic"
+	"github.com/plato-app/kit/metrics/internal/lv"
+	"github.com/plato-app/kit/metrics/internal/ratemap"
+	"github.com/plato-app/kit/util/conn"
 )
 
 // Dogstatsd receives metrics observations and forwards them to a DogStatsD

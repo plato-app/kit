@@ -12,10 +12,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/cloudwatch/cloudwatchiface"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/generic"
-	"github.com/go-kit/kit/metrics/internal/lv"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/metrics"
+	"github.com/plato-app/kit/metrics/generic"
+	"github.com/plato-app/kit/metrics/internal/lv"
 )
 
 const (

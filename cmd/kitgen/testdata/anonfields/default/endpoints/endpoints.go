@@ -3,8 +3,8 @@ package endpoints
 import (
 	"context"
 
-	"github.com/go-kit/kit/cmd/kitgen/testdata/anonfields/default/service"
-	"github.com/go-kit/kit/endpoint"
+	"github.com/plato-app/kit/cmd/kitgen/testdata/anonfields/default/service"
+	"github.com/plato-app/kit/endpoint"
 )
 
 type FooRequest struct {

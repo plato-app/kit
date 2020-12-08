@@ -3,9 +3,9 @@ package awslambda
 import (
 	"context"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
+	"github.com/plato-app/kit/endpoint"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/transport"
 )
 
 // Handler wraps an endpoint.

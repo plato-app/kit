@@ -11,8 +11,8 @@ import (
 
 	gosyslog "log/syslog"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/log/level"
+	"github.com/plato-app/kit/log"
+	"github.com/plato-app/kit/log/level"
 )
 
 // SyslogWriter is an interface wrapping stdlib syslog Writer.
